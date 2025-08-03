@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>飯店與旅行方案比較</title>
+  <style>
+    body {
+      font-family: "微軟正黑體", sans-serif;
+      background-color: #f8f9fa;
+      padding: 30px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 300px;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .card h2 {
+      margin-top: 15px;
+      font-size: 20px;
+      color: #007bff;
+    }
+    .card p {
+      font-size: 14px;
+      color: #555;
+      margin: 5px 0;
+    }
+    .card button {
+      margin-top: 10px;
+      padding: 10px 15px;
+      border: none;
+      background-color: #28a745;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    table {
+      width: 100%;
+      margin-top: 40px;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #007bff;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>飯店比較</h1>
+
+  <div class="container">
+    <div class="card">
+      <img src="images/one.PNG" alt="友愛閤困漫旅">
+      <h2>友愛閤困漫旅</h2>
+      <p>位於中西區，開車8分鐘可達台南火車站</p>
+      <p>與機車租借行合作，方便出遊</p>
+      <button onclick="window.open('https://www.example.com', '_blank')">查看方案</button>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/300/180?random=2" alt="山林小屋">
+      <h2>山林小屋</h2>
+      <p>山中幽靜住宿，附免費接駁與露營體驗</p>
+      <button onclick="window.open('https://www.example.com', '_blank')">查看方案</button>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/300/180?random=3" alt="環島自由行">
+      <h2>環島自由行</h2>
+      <p>7日6夜行程，自由搭配住宿與景點</p>
+      <button onclick="window.open('https://www.example.com', '_blank')">查看方案</button>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/300/180?random=4" alt="市中心精品旅店">
+      <h2>市中心精品旅店</h2>
+      <p>靠近夜市與捷運站，設計時尚，服務親切</p>
+      <button onclick="window.open('https://www.example.com', '_blank')">查看方案</button>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/300/180?random=5" alt="湖畔溫泉會館">
+      <h2>湖畔溫泉會館</h2>
+      <p>擁有私人湯屋與湖景房，適合放鬆度假</p>
+      <button onclick="window.open('https://www.example.com', '_blank')">查看方案</button>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/300/180?random=6" alt="高山民宿">
+      <h2>高山民宿</h2>
+      <p>絕美雲海景色，附家常早餐，主人親切熱情</p>
+      <button onclick="window.open('https://www.example.com', '_blank')">查看方案</button>
+    </div>
+  </div>
+
+  <table>
+    <tr>
+      <th>名稱</th>
+      <th>總價格 (NT$)</th>
+      <th>每人價格</th>
+      <th>位置</th>
+    </tr>
+    <tr>
+      <td>友愛閤困漫旅</td>
+      <td>2,000</td>
+      <td>666</td>
+      <td>台南</td>
+    </tr>
+    <tr>
+      <td>山林小屋</td>
+      <td>2,900</td>
+      <td>1,450</td>
+      <td>阿里山</td>
+    </tr>
+    <tr>
+      <td>環島自由行</td>
+      <td>10,000</td>
+      <td>2,500</td>
+      <td>全台灣</td>
+    </tr>
+    <tr>
+      <td>市中心精品旅店</td>
+      <td>4,200</td>
+      <td>2,100</td>
+      <td>台北</td>
+    </tr>
+    <tr>
+      <td>湖畔溫泉會館</td>
+      <td>5,500</td>
+      <td>2,750</td>
+      <td>日月潭</td>
+    </tr>
+    <tr>
+      <td>高山民宿</td>
+      <td>2,500</td>
+      <td>1,250</td>
+      <td>清境</td>
+    </tr>
+  </table>
+
+</body>
+</html>
